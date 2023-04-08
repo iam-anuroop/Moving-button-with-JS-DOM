@@ -52,11 +52,11 @@ e.style.background="lightgreen";
 let y=document.getElementById("input").value;
 let z=y.length;
 
-if(document.getElementById("div1").style.justifyContent=="center"&&z<2){
+if(document.getElementById("div1").style.justifyContent=="center"&&z<1){
    document.getElementById("div1").style.justifyContent="start";
 }
 else{
-if(z<2){
+if(z<1){
    document.getElementById("div1").style.justifyContent="center";
 }}
 }
